@@ -33,7 +33,7 @@
         <easyexcel.version>4.0.3</easyexcel.version>
         <hibernate.validator.version>6.2.0.Final</hibernate.validator.version>
         <mapstruct.version>1.5.5.Final</mapstruct.version>
-        <mybatis-plus.version>3.5.9</mybatis-plus.version>
+        <mybatis-plus.version>3.4.3.1</mybatis-plus.version>
         <kuaidi100.version>1.0.15</kuaidi100.version>
         <jeepay.version>1.6.0</jeepay.version>
         <IJPay.version>2.9.11</IJPay.version>

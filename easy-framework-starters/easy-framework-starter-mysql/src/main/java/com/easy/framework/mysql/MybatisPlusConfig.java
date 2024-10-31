@@ -28,7 +28,7 @@ public class MybatisPlusConfig {
         MybatisPlusInterceptor mybatisPlusInterceptor = new MybatisPlusInterceptor();
         mybatisPlusInterceptor.addInnerInterceptor(new BlockAttackInnerInterceptor());
         mybatisPlusInterceptor.addInnerInterceptor(new OptimisticLockerInnerInterceptor());
-        mybatisPlusInterceptor.addInnerInterceptor(new Pagination]());
+        mybatisPlusInterceptor.addInnerInterceptor(new PaginationInnerInterceptor());
         return mybatisPlusInterceptor;
     }
 
