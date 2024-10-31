@@ -11,7 +11,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring-boot.version>2.7.5</spring-boot.version>
+        <spring-boot.version>2.7.18</spring-boot.version>
         <spring-cloud.version>2021.0.3</spring-cloud.version>
         <spring-cloud-alibaba.version>2021.0.5.0</spring-cloud-alibaba.version>
         <dubbo.version>3.3.0</dubbo.version>
@@ -21,7 +21,6 @@
         <jwt.version>0.9.1</jwt.version>
         <aliyun-oss.version>3.10.2</aliyun-oss.version>
         <aliyun-dysmsapi.version>2.0.9</aliyun-dysmsapi.version>
-        <!--3.X使用OpenAPI3的结构，可能不支持springboot2.6.1，待验证-->
         <!--实用插件-->
         <swagger-annotations.version>1.5.22</swagger-annotations.version>
         <knife4j.version>3.0.3</knife4j.version>
@@ -208,7 +207,27 @@
             </dependency>
             <dependency>
                 <groupId>com.easy.framework</groupId>
+                <artifactId>easy-framework-starter-dubbo</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.easy.framework</groupId>
+                <artifactId>easy-framework-starter-feign</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.easy.framework</groupId>
+                <artifactId>easy-framework-starter-job</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.easy.framework</groupId>
                 <artifactId>easy-framework-starter-mysql</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.easy.framework</groupId>
+                <artifactId>easy-framework-starter-nacos</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

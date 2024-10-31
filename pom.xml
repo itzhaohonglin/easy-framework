@@ -13,6 +13,7 @@
         <module>easy-framework-dependencies</module>
         <module>easy-framework-common</module>
         <module>easy-framework-starters</module>
+        <module>easy-framework-starters/easy-framework-starter-feign</module>
     </modules>
 
     <properties>

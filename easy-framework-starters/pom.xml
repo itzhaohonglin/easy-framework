@@ -19,6 +19,9 @@
         <module>easy-framework-starter-web-safety</module>
         <module>easy-framework-starter-web-tools</module>
         <module>easy-framework-starter-rocketmq</module>
+        <module>easy-framework-starter-job</module>
+        <module>easy-framework-starter-dubbo</module>
+        <module>easy-framework-starter-nacos</module>
     </modules>
 
 </project>
